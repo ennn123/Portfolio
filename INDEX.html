@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Layout</title>
+
+  <link rel="stylesheet" href="portfolio.css">
+
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <div class="bg-glow glow1"></div>
+<div class="bg-glow glow2"></div>
+
+
+  <!-- Main Card -->
+  <div class="container">
+
+    <!-- Image -->
+    <div class="image-section">
+      <img src="Untitled (3).png" alt="pretty baby">
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+
+      <div class="top-links">
+
+         <a href="PROJECTS.html"class="no-underline"><h3>PROJECTS></h3></a>
+         <a href="EDITS.html"class="no-underline"><h3>LAYOUTS></h3></a>
+         <a href="VIDEOS.html"class="no-underline"><h3>VIDEOS></h3></a>
+         <a href="MORE.html"class="no-underline"><h3>CONTACT></h3></a>
+      </div>
+
+      <h1>NYANZA</h1>
+
+      <div class="info-grid">
+
+        <div>
+          <p class="label">Real Name</p>
+          <h3>Nyanza Greenlee Luansing Landicho</h3>
+        </div>
+
+        <div>
+          <p class="label">Age</p>
+          <h3>19</h3>
+        </div>
+
+        <div>
+          <p class="label">Birthdate</p>
+          <h3>July 2, 2006</h3>
+        </div>
+
+      </div>
+
+      <div class="bottom-section">
+
+        <div class="left-info">
+          <div>
+            <p class="label">Birthplace</p>
+            <h3>Lobo, Batangas, Philippines</h3>
+          </div>
+
+          <div>
+            <p class="label">Course</p>
+            <h3>Computer Engineering Technology</h3>
+          </div>
+
+          <div>
+            <p class="label">Hobby</p>
+            <h3>Video Editing</h3>
+            <h3>Writing</h3>
+          </div>
+        </div>
+
+        <div class="about">
+           <p class="label">About</p>
+           <p>
+            Second-year college student a passionate layout/graphics designer and video editor. A Juinor Developer and a student-leader.
+            Building a legacy of turning ideas into visuals, systems, and real-world solutions with a heart.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- POPUP -->
+<div class="popup-overlay" id="popup">
+
+  <div class="popup-card">
+
+    <button class="close-btn" onclick="closePopup()">✖</button>
+
+    <div class="popup-content">
+
+      <!-- LEFT SIDE -->
+      <div class="popup-text">
+        <h1>Hi I'm Nyanza, your MARE!</h1>
+
+        <h3>
+          Motivated • Adaptable • Reliable • Energetic
+        </h3>
+
+        <p>
+          I strive to bring positivity,
+          creativity, and dedication into everything I do.
+        </p>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="popup-image">
+        <img src="a08091ca-03d7-408a-9e43-20652820a978.jpg" alt="Nyanza">
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+<!-- Second Block -->
+<div class="second-block">
+  <div class="project-card">
+    <div class="project-info">
+        <h1>MOTIVATED</h1>
+        <p>I like to explore and be challenged. I am motivated and passionate to the things I like to do. I want to maximize my capability to finish a project
+          and learn. What keeps me passionate is the feeling of leveling up by the certain project I am committing. I treat every project,
+        participation and competitions a stepping stone to be better. </p>
+
+
+    <h1>ADAPTABLE</h1>
+        <p>I am an individual who is open to learning, embracing unknown, and adjusting to different situations. I enjoy collaborating with others, sharing ideas, and working as a supportive team player to achieve common goals. I value teamwork, communication, and building positive connections that contribute to both personal and group success.
+ </p>
+
+ 
+    <h1>RELIABLE</h1>
+        <p>As a student leader, I value reliability by being responsible, dependable, and committed to fulfilling tasks on time. I strive to support my team, stay organized, and lead by example in both academics and leadership. </p>
+  
+  
+  <h1>ENERGETIC</h1>
+        <p>I am an energetic, adaptable, and reliable individual who approaches opportunities with enthusiasm and a willingness to learn. I enjoy collaborating with others, exchanging ideas, and working as a strong team player to create meaningful results. Through teamwork, communication, and a positive mindset, I aim to contribute effectively while growing alongside the people I work with.</p>
+      </div>
+
+      <div class="MO">
+
+   <img src="Screenshot 2026-04-07 103849.png" class="floating-img img1">
+
+  <img src="received_694252770072274.jpeg" class="floating-img img2">
+
+  <img src="Messenger_creation_CAD9E259-E23B-42FE-B64B-C0CEB304C6E6.jpeg" class="floating-img img3">
+</div>
+    
+</div>
+    
+    
+
+
+<script>
+window.onload = function () {
+    document.getElementById("popup").style.display = "flex";
+};
+
+function closePopup(){
+    document.getElementById("popup").style.display = "none";
+}
+</script>
+
+
+
+</body>
+</html>
