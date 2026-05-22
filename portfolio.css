@@ -826,7 +826,7 @@ body::after{
   position: relative;
   width: 1050px;
   height: 100vh;
-  background: rgba(10,20,90,0.45);
+  background:  rgba(1, 15, 106, 0.45);
   backdrop-filter: blur(8px);
   box-shadow: 0 20px 50px rgba(0,0,0,0.4);
   display: flex;
